@@ -1,0 +1,10 @@
+Altium Designer System: Library Component Rule Check
+PCB File : CubeSat-Backplane
+Date     : 4/6/2020
+Time     : 11:32:00 AM
+
+
+Name                Warnings
+------------------------------------------------------------------
+5027                     Duplicate Pad Name On Pads Pad Free-1(0mm,0mm) on Multi-Layer And Pad Free-1(-1.75mm,0mm) on Top Layer
+
