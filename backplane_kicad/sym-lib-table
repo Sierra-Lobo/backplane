@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CubeSat_Backplane)(type Legacy)(uri ${KIPRJMOD}/lib-symbols/CubeSat_Backplane.lib)(options "")(descr ""))
+)

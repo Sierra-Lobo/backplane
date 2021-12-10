@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_02x60_Top_Bottom
+D Generic connector, double row, 02x40, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP PCA9959
+D 16-bit PWM Fm+ I2C-bus LED driver, TSSOP-28
+K led pwm rgb rgba
+F https://www.nxp.com/docs/en/data-sheet/PCA9635.pdf
+$ENDCMP
+#
+$CMP TLC59282
+D 16-Channel LED Driver QFN
+K LED driver
+$ENDCMP
+#
+#End Doc Library
