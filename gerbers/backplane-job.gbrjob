@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2021-12-10T15:36:21-05:00"
+    "CreationDate":  "2021-12-17T15:26:30-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "backplane",
       "GUID": "6261636b-706c-4616-9e65-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "A1"
     },
     "Size":
     {

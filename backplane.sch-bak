@@ -4452,8 +4452,8 @@ Text Notes 12400 11050 0    100  ~ 20
 LED Driver
 Text Notes 13150 13900 0    100  ~ 0
 CHS, GND Jumper
-Text Notes 18150 4500 0    100  ~ 20
-Breakout Connectors
+Text Notes 17350 3450 0    100  ~ 20
+Burn Wire Connectors
 $Comp
 L Connector_Generic:Conn_02x30_Odd_Even J301
 U 1 1 A5D177B4
@@ -5016,4 +5016,29 @@ Text Notes 18450 15500 0    50   ~ 0
 todo:\nadd burn wire connectors?
 Text Notes 17400 15500 0    100  ~ 20
 BACKPLANE
+$Comp
+L Connector_Generic:Conn_01x04 J101
+U 1 1 61E229FD
+P 17600 3950
+F 0 "J101" H 17518 4357 50  0000 C CNN
+F 1 "BURN_WIRES" H 17518 4266 50  0000 C CNN
+F 2 "CubeSat_Backplane:DF13-4P-1.25(75)" H 17600 3950 50  0001 C CNN
+F 3 "F13-4P-1.25(76)" H 17518 4175 50  0000 C CNN
+	1    17600 3950
+	-1   0    0    -1  
+$EndComp
+Text Label 17800 4150 0    60   ~ 0
+GND
+Text Label 17800 3950 0    60   ~ 0
+GND
+Text Label 17800 3850 0    60   ~ 0
+H1-1
+Text Label 17800 4050 0    60   ~ 0
+H1-2
+Text Notes 18150 3850 0    100  ~ 0
+burn1
+Text Notes 18150 4050 0    100  ~ 0
+burn2
+Text Notes 18700 3950 0    100  ~ 0
+may need to move these in future
 $EndSCHEMATC
