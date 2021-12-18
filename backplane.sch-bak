@@ -4460,7 +4460,7 @@ U 1 1 A5D177B4
 P 18800 9800
 F 0 "J301" H 18850 11550 50  0000 C CNN
 F 1 "Breakout Connector" H 18850 11450 50  0000 C CNN
-F 2 "CubeSat_Backplane:TLH-030-0.50-G-D-A" H 18800 9800 50  0001 C CNN
+F 2 "CubeSat_Backplane:SAMTEC_LSH-030-01-X-D-A-TR" H 18800 9800 50  0001 C CNN
 F 3 "TLH-030-0.50-G-D-A" H 18800 11350 50  0000 C CNN
 F 4 "TLH-030-0.50-G-D-A" H 18800 9800 50  0001 C CNN "Manufacturer Part Number 1"
 	1    18800 9800
@@ -4472,7 +4472,7 @@ U 1 1 A5767F5B
 P 18850 6300
 F 0 "J300" H 18900 8000 50  0000 C CNN
 F 1 "Breakout Connector" H 18900 7900 50  0000 C CNN
-F 2 "CubeSat_Backplane:TLH-030-0.50-G-D-A" H 18850 6300 50  0001 C CNN
+F 2 "CubeSat_Backplane:SAMTEC_LSH-030-01-X-D-A-TR" H 18850 6300 50  0001 C CNN
 F 3 "TLH-030-0.50-G-D-A" H 18850 7850 50  0000 C TNN
 F 4 "TLH-030-0.50-G-D-A" H 18850 6300 50  0001 C CNN "Manufacturer Part Number 1"
 	1    18850 6300
@@ -5017,7 +5017,7 @@ todo:\nadd burn wire connectors?
 Text Notes 17400 15500 0    100  ~ 20
 BACKPLANE
 $Comp
-L Connector_Generic:Conn_01x04 J101
+L Connector_Generic:Conn_01x05 J101
 U 1 1 61E229FD
 P 17600 3950
 F 0 "J101" H 17518 4357 50  0000 C CNN
@@ -5027,13 +5027,13 @@ F 3 "F13-4P-1.25(76)" H 17518 4175 50  0000 C CNN
 	1    17600 3950
 	-1   0    0    -1  
 $EndComp
-Text Label 17800 4150 0    60   ~ 0
-GND
-Text Label 17800 3950 0    60   ~ 0
+Text Label 17800 4050 0    60   ~ 0
 GND
 Text Label 17800 3850 0    60   ~ 0
+GND
+Text Label 17800 3750 0    60   ~ 0
 H1-1
-Text Label 17800 4050 0    60   ~ 0
+Text Label 17800 3950 0    60   ~ 0
 H1-2
 Text Notes 18150 3850 0    100  ~ 0
 burn1
@@ -5041,4 +5041,6 @@ Text Notes 18150 4050 0    100  ~ 0
 burn2
 Text Notes 18700 3950 0    100  ~ 0
 may need to move these in future
+Text Label 17800 4150 0    60   ~ 0
+CHS
 $EndSCHEMATC
