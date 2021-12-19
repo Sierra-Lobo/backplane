@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name backplane-rbf)(type KiCad)(uri ${KIPRJMOD}/backplane-rbf.pretty)(options "")(descr ""))
+)
