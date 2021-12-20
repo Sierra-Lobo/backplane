@@ -1,4 +1,4 @@
-19195256277595370
+19205095523392009
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83502,24 +83502,66 @@ varistor SIOV
 0
 2
 2
-backplane-rbf
+backplane-breakout-big
+156125M173000
+
+
+0
+4
+4
+backplane-breakout-big
+HSEC8-160-01-S-DV-A-K-TR
+0.8MM HIGH SPEED EDGE CARD ASSEMBLY.MANUFACTURER:SAMTEC.
+
+0
+120
+120
+backplane-breakout-big
+Keystone_476
+
+
+0
+1
+1
+backplane-breakout-big
+Keystone_5027
+
+
+0
+2
+1
+backplane-breakout-big
+LP3944ISQ_NOPB
+
+
+0
+25
+25
+backplane-breakout-big
 NetTie-2_SMD_Pad0.25mm
 Net tie, 2 pin, 0.5mm square SMD pads
 net tie
 0
 2
 2
-backplane-rbf
+backplane-breakout-big
 SAMTEC_LSH-030-01-X-D-A-TR
 
 
 0
 60
 60
-backplane-rbf
+backplane-breakout-big
 SLI_LOGO
 
 
 0
 0
 0
+backplane-breakout-big
+SW_OS102011MS2QN1
+
+
+0
+3
+3
