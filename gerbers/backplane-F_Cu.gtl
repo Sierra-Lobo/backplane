@@ -1,70 +1,70 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*%
-%TF.CreationDate,2021-12-18T00:28:50-05:00*%
-%TF.ProjectId,backplane,6261636b-706c-4616-9e65-2e6b69636164,A1*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Copper,L1,Top*%
-%TF.FilePolarity,Positive*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*
+G04 #@! TF.CreationDate,2021-12-19T20:38:29-05:00*
+G04 #@! TF.ProjectId,backplane,6261636b-706c-4616-9e65-2e6b69636164,A1*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L1,Top*
+G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-12-18 00:28:50*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-12-19 20:38:29*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD10R,0.500000X1.200000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD11R,0.800000X1.800000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD12R,1.600000X2.000000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD13R,0.450000X0.700000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD14C,4.500000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD15R,0.800000X1.900000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD16R,1.800000X2.600000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD17R,0.900000X0.850000*%
-%TD*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD18R,2.450000X2.450000*%
-%TD*%
-%TA.AperFunction,ViaPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD19C,0.500000*%
-%TD*%
-%TA.AperFunction,ViaPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD20C,0.400000*%
-%TD*%
-%TA.AperFunction,ViaPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD21C,0.800000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD22C,0.200000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD23C,0.500000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD24C,0.300000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD25C,0.250000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD26C,0.600000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD27C,0.100000*%
-%TD*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X72209000Y-52595000D03*
@@ -1027,7 +1027,7 @@ X121809000Y-157595000D03*
 X121809000Y-154195000D03*
 X122609000Y-157595000D03*
 X122609000Y-154195000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X67527600Y-135150200D02*
@@ -1052,7 +1052,7 @@ G02*
 X67527600Y-135150200I0J-200000D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D11*
 X65877600Y-135850200D03*
 X64627600Y-135850200D03*
@@ -1060,7 +1060,7 @@ X63377600Y-135850200D03*
 D12*
 X69477600Y-133250200D03*
 X61027600Y-133250200D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X94303000Y-41642000D02*
@@ -1085,8 +1085,8 @@ G02*
 X94303000Y-41642000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X94303000Y-40622000D02*
@@ -1111,8 +1111,8 @@ G02*
 X94303000Y-40622000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X93486000Y-39312000D02*
@@ -1137,8 +1137,8 @@ G02*
 X93486000Y-39312000I0J-135000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X94506000Y-39312000D02*
@@ -1163,7 +1163,7 @@ G02*
 X94506000Y-39312000I0J-135000D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D13*
 X92710000Y-42894000D03*
 X92060000Y-40894000D03*
@@ -1175,7 +1175,7 @@ X132409000Y-105895000D03*
 X132409000Y-172895000D03*
 X62409000Y-172895000D03*
 X62409000Y-40895000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X133434000Y-148595000D02*
@@ -1200,7 +1200,7 @@ G02*
 X133434000Y-148595000I0J-200000D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D11*
 X131784000Y-149295000D03*
 X130534000Y-149295000D03*
@@ -1210,7 +1210,7 @@ X126784000Y-149295000D03*
 D12*
 X135384000Y-146695000D03*
 X124434000Y-146695000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X133534000Y-58695000D02*
@@ -1235,7 +1235,7 @@ G02*
 X133534000Y-58695000I0J-200000D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D11*
 X131884000Y-59395000D03*
 X130634000Y-59395000D03*
@@ -1245,7 +1245,7 @@ X126884000Y-59395000D03*
 D12*
 X135484000Y-56795000D03*
 X124534000Y-56795000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68434000Y-149845000D02*
@@ -1270,7 +1270,7 @@ G02*
 X68434000Y-149845000I0J-200000D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D11*
 X66784000Y-150545000D03*
 X65534000Y-150545000D03*
@@ -1280,7 +1280,7 @@ X61784000Y-150545000D03*
 D12*
 X70384000Y-147945000D03*
 X59434000Y-147945000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X88259000Y-163745000D02*
@@ -1305,7 +1305,7 @@ G02*
 X88259000Y-163745000I0J200000D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D15*
 X89909000Y-162995000D03*
 X91159000Y-162995000D03*
@@ -1358,7 +1358,7 @@ X65529000Y-159010000D03*
 X65529000Y-160160000D03*
 X68829000Y-159010000D03*
 X68829000Y-160160000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X75730000Y-42056000D02*
@@ -1383,8 +1383,8 @@ G02*
 X75730000Y-42056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X75730000Y-42556000D02*
@@ -1409,8 +1409,8 @@ G02*
 X75730000Y-42556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X75730000Y-43056000D02*
@@ -1435,8 +1435,8 @@ G02*
 X75730000Y-43056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X75730000Y-43556000D02*
@@ -1461,8 +1461,8 @@ G02*
 X75730000Y-43556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X75730000Y-44056000D02*
@@ -1487,8 +1487,8 @@ G02*
 X75730000Y-44056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X75730000Y-44556000D02*
@@ -1513,8 +1513,8 @@ G02*
 X75730000Y-44556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X76730000Y-45556000D02*
@@ -1539,8 +1539,8 @@ G02*
 X76730000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X77230000Y-45556000D02*
@@ -1565,8 +1565,8 @@ G02*
 X77230000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X77730000Y-45556000D02*
@@ -1591,8 +1591,8 @@ G02*
 X77730000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X78230000Y-45556000D02*
@@ -1617,8 +1617,8 @@ G02*
 X78230000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X78730000Y-45556000D02*
@@ -1643,8 +1643,8 @@ G02*
 X78730000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79230000Y-45556000D02*
@@ -1669,8 +1669,8 @@ G02*
 X79230000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79705000Y-44556000D02*
@@ -1695,8 +1695,8 @@ G02*
 X79705000Y-44556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79705000Y-44056000D02*
@@ -1721,8 +1721,8 @@ G02*
 X79705000Y-44056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79705000Y-43556000D02*
@@ -1747,8 +1747,8 @@ G02*
 X79705000Y-43556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79705000Y-43056000D02*
@@ -1773,8 +1773,8 @@ G02*
 X79705000Y-43056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79705000Y-42556000D02*
@@ -1799,8 +1799,8 @@ G02*
 X79705000Y-42556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79705000Y-42056000D02*
@@ -1825,8 +1825,8 @@ G02*
 X79705000Y-42056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X79230000Y-41581000D02*
@@ -1851,8 +1851,8 @@ G02*
 X79230000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X78730000Y-41581000D02*
@@ -1877,8 +1877,8 @@ G02*
 X78730000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X78230000Y-41581000D02*
@@ -1903,8 +1903,8 @@ G02*
 X78230000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X77730000Y-41581000D02*
@@ -1929,8 +1929,8 @@ G02*
 X77730000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X77230000Y-41581000D02*
@@ -1955,8 +1955,8 @@ G02*
 X77230000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X76730000Y-41581000D02*
@@ -1981,10 +1981,10 @@ G02*
 X76730000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D18*
 X78105000Y-43243500D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68618000Y-42056000D02*
@@ -2009,8 +2009,8 @@ G02*
 X68618000Y-42056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68618000Y-42556000D02*
@@ -2035,8 +2035,8 @@ G02*
 X68618000Y-42556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68618000Y-43056000D02*
@@ -2061,8 +2061,8 @@ G02*
 X68618000Y-43056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68618000Y-43556000D02*
@@ -2087,8 +2087,8 @@ G02*
 X68618000Y-43556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68618000Y-44056000D02*
@@ -2113,8 +2113,8 @@ G02*
 X68618000Y-44056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X68618000Y-44556000D02*
@@ -2139,8 +2139,8 @@ G02*
 X68618000Y-44556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X69618000Y-45556000D02*
@@ -2165,8 +2165,8 @@ G02*
 X69618000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X70118000Y-45556000D02*
@@ -2191,8 +2191,8 @@ G02*
 X70118000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X70618000Y-45556000D02*
@@ -2217,8 +2217,8 @@ G02*
 X70618000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X71118000Y-45556000D02*
@@ -2243,8 +2243,8 @@ G02*
 X71118000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X71618000Y-45556000D02*
@@ -2269,8 +2269,8 @@ G02*
 X71618000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72118000Y-45556000D02*
@@ -2295,8 +2295,8 @@ G02*
 X72118000Y-45556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72593000Y-44556000D02*
@@ -2321,8 +2321,8 @@ G02*
 X72593000Y-44556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72593000Y-44056000D02*
@@ -2347,8 +2347,8 @@ G02*
 X72593000Y-44056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72593000Y-43556000D02*
@@ -2373,8 +2373,8 @@ G02*
 X72593000Y-43556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72593000Y-43056000D02*
@@ -2399,8 +2399,8 @@ G02*
 X72593000Y-43056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72593000Y-42556000D02*
@@ -2425,8 +2425,8 @@ G02*
 X72593000Y-42556000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72593000Y-42056000D02*
@@ -2451,8 +2451,8 @@ G02*
 X72593000Y-42056000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X72118000Y-41581000D02*
@@ -2477,8 +2477,8 @@ G02*
 X72118000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X71618000Y-41581000D02*
@@ -2503,8 +2503,8 @@ G02*
 X71618000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X71118000Y-41581000D02*
@@ -2529,8 +2529,8 @@ G02*
 X71118000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X70618000Y-41581000D02*
@@ -2555,8 +2555,8 @@ G02*
 X70618000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X70118000Y-41581000D02*
@@ -2581,8 +2581,8 @@ G02*
 X70118000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X69618000Y-41581000D02*
@@ -2607,9 +2607,9 @@ G02*
 X69618000Y-41581000I0J62500D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 X70993000Y-43243500D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X90366000Y-39610000D02*
@@ -2634,8 +2634,8 @@ G02*
 X90366000Y-39610000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X90366000Y-38590000D02*
@@ -2660,8 +2660,8 @@ G02*
 X90366000Y-38590000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X87572000Y-39610000D02*
@@ -2686,8 +2686,8 @@ G02*
 X87572000Y-39610000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X87572000Y-38590000D02*
@@ -2712,8 +2712,8 @@ G02*
 X87572000Y-38590000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X84778000Y-39610000D02*
@@ -2738,8 +2738,8 @@ G02*
 X84778000Y-39610000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X84778000Y-38590000D02*
@@ -2764,8 +2764,8 @@ G02*
 X84778000Y-38590000I135000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X89641000Y-45446000D02*
@@ -2790,8 +2790,8 @@ G02*
 X89641000Y-45446000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X89641000Y-43796000D02*
@@ -2816,8 +2816,8 @@ G02*
 X89641000Y-43796000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X86847000Y-43796000D02*
@@ -2842,8 +2842,8 @@ G02*
 X86847000Y-43796000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X86847000Y-45446000D02*
@@ -2868,8 +2868,8 @@ G02*
 X86847000Y-45446000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X84053000Y-45446000D02*
@@ -2894,8 +2894,8 @@ G02*
 X84053000Y-45446000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X84053000Y-43796000D02*
@@ -2920,8 +2920,8 @@ G02*
 X84053000Y-43796000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X81936000Y-40533000D02*
@@ -2946,8 +2946,8 @@ G02*
 X81936000Y-40533000I-200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X81936000Y-42183000D02*
@@ -2972,8 +2972,8 @@ G02*
 X81936000Y-42183000I-200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X74824000Y-40469000D02*
@@ -2998,8 +2998,8 @@ G02*
 X74824000Y-40469000I-200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X74824000Y-42119000D02*
@@ -3024,7 +3024,7 @@ G02*
 X74824000Y-42119000I-200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D13*
 X89916000Y-42910000D03*
 X89266000Y-40910000D03*
@@ -3035,7 +3035,7 @@ X87772000Y-40910000D03*
 X84328000Y-42926000D03*
 X83678000Y-40926000D03*
 X84978000Y-40926000D03*
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X77259000Y-39501000D02*
@@ -3060,8 +3060,8 @@ G02*
 X77259000Y-39501000I0J-225000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X78809000Y-39501000D02*
@@ -3086,8 +3086,8 @@ G02*
 X78809000Y-39501000I0J-225000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X70147000Y-39501000D02*
@@ -3112,8 +3112,8 @@ G02*
 X70147000Y-39501000I0J-225000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X71697000Y-39501000D02*
@@ -3138,8 +3138,8 @@ G02*
 X71697000Y-39501000I0J-225000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X128609000Y-106065000D02*
@@ -3164,8 +3164,8 @@ G02*
 X128609000Y-106065000I0J140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X127649000Y-106065000D02*
@@ -3190,8 +3190,8 @@ G02*
 X127649000Y-106065000I0J140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X128609000Y-173065000D02*
@@ -3216,8 +3216,8 @@ G02*
 X128609000Y-173065000I0J140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X127649000Y-173065000D02*
@@ -3242,8 +3242,8 @@ G02*
 X127649000Y-173065000I0J140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X66209000Y-172725000D02*
@@ -3268,8 +3268,8 @@ G02*
 X66209000Y-172725000I0J-140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X67169000Y-172725000D02*
@@ -3294,8 +3294,8 @@ G02*
 X67169000Y-172725000I0J-140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X66209000Y-105725000D02*
@@ -3320,8 +3320,8 @@ G02*
 X66209000Y-105725000I0J-140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X67169000Y-105725000D02*
@@ -3346,8 +3346,8 @@ G02*
 X67169000Y-105725000I0J-140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X128609000Y-41065000D02*
@@ -3372,8 +3372,8 @@ G02*
 X128609000Y-41065000I0J140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X127649000Y-41065000D02*
@@ -3398,8 +3398,8 @@ G02*
 X127649000Y-41065000I0J140000D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X60679000Y-43822000D02*
@@ -3424,8 +3424,8 @@ G02*
 X60679000Y-43822000I-140000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X60679000Y-44782000D02*
@@ -3450,8 +3450,8 @@ G02*
 X60679000Y-44782000I-140000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X58909000Y-164220000D02*
@@ -3476,8 +3476,8 @@ G02*
 X58909000Y-164220000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
-%TA.AperFunction,SMDPad,CuDef*%
+G04 #@! TD.AperFunction*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
 G01*
 X58909000Y-162570000D02*
@@ -3502,7 +3502,7 @@ G02*
 X58909000Y-162570000I200000J0D01*
 G01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D19*
 X102150000Y-173800000D03*
 D20*
@@ -69917,7 +69917,7 @@ X58959064Y-38251751D01*
 X59023298Y-38245000D01*
 X84398417Y-38245000D01*
 X84388000Y-38297367D01*
-%TA.AperFunction,Conductor*%
+G04 #@! TA.AperFunction,Conductor*
 D27*
 G36*
 X84388000Y-38297367D02*
@@ -132500,7 +132500,7 @@ X59023298Y-38245000D01*
 X84398417Y-38245000D01*
 X84388000Y-38297367D01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D25*
 X129807428Y-150195000D02*
 X129813703Y-150258711D01*
@@ -132524,7 +132524,7 @@ X128760572Y-150195000D01*
 X128760572Y-148500812D01*
 X129807428Y-148493542D01*
 X129807428Y-150195000D01*
-%TA.AperFunction,Conductor*%
+G04 #@! TA.AperFunction,Conductor*
 D27*
 G36*
 X129807428Y-150195000D02*
@@ -132551,7 +132551,7 @@ X128760572Y-148500812D01*
 X129807428Y-148493542D01*
 X129807428Y-150195000D01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 D25*
 X129907428Y-60295000D02*
 X129913703Y-60358711D01*
@@ -132574,7 +132574,7 @@ X128860572Y-60295000D01*
 X128860572Y-58545000D01*
 X129907428Y-58545000D01*
 X129907428Y-60295000D01*
-%TA.AperFunction,Conductor*%
+G04 #@! TA.AperFunction,Conductor*
 D27*
 G36*
 X129907428Y-60295000D02*
@@ -132600,5 +132600,5 @@ X128860572Y-58545000D01*
 X129907428Y-58545000D01*
 X129907428Y-60295000D01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 M02*
