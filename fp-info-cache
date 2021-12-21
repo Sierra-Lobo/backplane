@@ -1,4 +1,4 @@
-19234125854276393
+19237406281739631
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48845,6 +48845,20 @@ SLI_LOGO
 0
 0
 0
+CubeSat_Backplane
+SMTSO-080-4
+
+
+0
+1
+1
+CubeSat_Backplane
+SMTSO-M1.6-2
+
+
+0
+1
+1
 CubeSat_Backplane
 TLH-030-0.50-G-D-A
 
