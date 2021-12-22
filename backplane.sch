@@ -5069,4 +5069,6 @@ Text Notes 18050 3750 0    100  ~ 0
 may need to move these in future
 Text Label 17150 3950 0    60   ~ 0
 CHS
+Text Notes 15200 13000 0    100  ~ 0
+breakout connectors are spaced such that the breakout thickness is 3.2mm!!
 $EndSCHEMATC

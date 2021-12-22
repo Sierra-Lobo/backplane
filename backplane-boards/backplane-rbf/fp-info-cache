@@ -1,4 +1,4 @@
-19195256277595370
+19196897316669866
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83503,6 +83503,13 @@ varistor SIOV
 2
 2
 backplane-rbf
+FTS-130-01-L-SV
+surface-mounted straight pin header, 1x30, 1.27mm pitch, single row, style 2 (pin 1 right)
+Surface mounted pin header SMD 1x30 1.27mm single row style2 pin1 right
+0
+30
+30
+backplane-rbf
 NetTie-2_SMD_Pad0.25mm
 Net tie, 2 pin, 0.5mm square SMD pads
 net tie
@@ -83510,8 +83517,8 @@ net tie
 2
 2
 backplane-rbf
-SAMTEC_LSH-030-01-X-D-A-TR
-
+SAMTEC-FTS-130-01-X-DV
+translated Allegro footprint
 
 0
 60
