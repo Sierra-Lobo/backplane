@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.9)-1"
+      "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2021-12-21T22:01:16-05:00"
+    "CreationDate":  "2021-12-22T09:51:40-05:00"
   },
   "GeneralSpecs":
   {
@@ -23,7 +23,7 @@
       "Y": 15.920
     },
     "LayerNumber": 2,
-    "BoardThickness":  0.400
+    "BoardThickness":  0.200
   },
   "DesignRules":
   [
