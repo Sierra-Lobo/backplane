@@ -1,8 +1,8 @@
 (footprint "Keystone_5027" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CA3C8B)
+  (tedit 61CDD174)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -2.032) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 -2.032) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b3fc9d45-b226-45a2-bb39-38f799f0b598)
   )
