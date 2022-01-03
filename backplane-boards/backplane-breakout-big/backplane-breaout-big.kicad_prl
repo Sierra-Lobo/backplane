@@ -1,9 +1,12 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
-    "hidden_nets": [],
+    "hidden_nets": [
+      "5V_DEBUG",
+      "GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -38,6 +41,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -64,8 +68,8 @@
       36,
       37
     ],
-    "visible_layers": "0007c00_80000001",
-    "zone_display_mode": 1
+    "visible_layers": "0007400_0000000b",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "backplane-breaout-big.kicad_prl",
