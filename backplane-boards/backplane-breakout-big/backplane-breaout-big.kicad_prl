@@ -68,8 +68,8 @@
       36,
       37
     ],
-    "visible_layers": "0007400_0000000b",
-    "zone_display_mode": 0
+    "visible_layers": "00074a0_8000001f",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "backplane-breaout-big.kicad_prl",
