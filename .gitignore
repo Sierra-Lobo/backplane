@@ -29,3 +29,5 @@ fp-info-cache
 backups/
 
 .DS_store
+
+*/__p*
