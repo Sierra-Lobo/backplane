@@ -1,0 +1,16 @@
+(module SMTSO-080-4 (layer F.Cu) (tedit 61C242A6)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SMTSO-080-4 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0.000025 0) (layer F.Mask) (width 3.81))
+  (pad "" np_thru_hole circle (at 0 0 90) (size 2.4892 2.4892) (drill 2.4892) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at 0 2.0955 90) (size 0.0254 0.0254) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_circle (center 2.0955 0) (end 4.191 0) (width 0.9652))
+    ))
+)

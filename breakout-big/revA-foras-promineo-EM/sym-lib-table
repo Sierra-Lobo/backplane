@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name backplane-breakout-big)(type Legacy)(uri ${KIPRJMOD}/backplane-breakout-big.lib)(options "")(descr ""))
+)
