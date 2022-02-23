@@ -27,3 +27,5 @@ fp-info-cache
 
 # backups
 backups/
+
+.DS_store
