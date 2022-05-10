@@ -1,0 +1,12 @@
+(footprint "#4_PTH" (version 20210722) (generator pcbnew) (layer "F.Cu")
+  (tedit 6279088B)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cee91aa4-b438-4972-8ab5-e4310d8fdd83)
+  )
+  (fp_text value "#4_PTH" (at 0 3.556 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 978e2616-ff5a-43b7-8bda-d2c18e64ffd4)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 5.334 5.334) (drill 3.048) (layers *.Cu *.Mask) (tstamp c090cc60-822f-49e4-978a-6ab004050bfe))
+)
