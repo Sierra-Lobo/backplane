@@ -31,6 +31,7 @@ backups/
 .DS_store
 
 */__p*
-.DS_Store
+*.DS_Store
 *.zip
 *.kicad_prl
+
