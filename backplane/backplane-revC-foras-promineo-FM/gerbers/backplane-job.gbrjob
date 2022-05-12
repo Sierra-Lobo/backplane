@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.5)"
     },
-    "CreationDate": "2022-05-10T11:54:52-04:00"
+    "CreationDate": "2022-05-12T08:59:49-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "backplane",
       "GUID": "6261636b-706c-4616-9e65-2e6b69636164",
-      "Revision": "A1"
+      "Revision": "C"
     },
     "Size": {
       "X": 78.05,
@@ -19,7 +19,7 @@
     },
     "LayerNumber": 6,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "Immersion gold"
   },
   "DesignRules": [
     {
@@ -93,6 +93,11 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "backplane-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "backplane-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
@@ -101,11 +106,8 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Top Silk Screen"
-    },
-    {
-      "Type": "SolderPaste",
-      "Name": "Top Solder Paste"
     },
     {
       "Type": "SolderMask",
@@ -121,7 +123,7 @@
     {
       "Type": "Dielectric",
       "Thickness": 0.274,
-      "Material": "FR4",
+      "Material": "Polyimide",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
@@ -133,7 +135,7 @@
     {
       "Type": "Dielectric",
       "Thickness": 0.274,
-      "Material": "FR4",
+      "Material": "Polyimide",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
@@ -145,7 +147,7 @@
     {
       "Type": "Dielectric",
       "Thickness": 0.274,
-      "Material": "FR4",
+      "Material": "Polyimide",
       "Name": "In2.Cu/In3.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
     },
@@ -157,7 +159,7 @@
     {
       "Type": "Dielectric",
       "Thickness": 0.274,
-      "Material": "FR4",
+      "Material": "Polyimide",
       "Name": "In3.Cu/In4.Cu",
       "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
     },
@@ -169,7 +171,7 @@
     {
       "Type": "Dielectric",
       "Thickness": 0.274,
-      "Material": "FR4",
+      "Material": "Polyimide",
       "Name": "In4.Cu/B.Cu",
       "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
     },
@@ -185,11 +187,8 @@
       "Name": "Bottom Solder Mask"
     },
     {
-      "Type": "SolderPaste",
-      "Name": "Bottom Solder Paste"
-    },
-    {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]

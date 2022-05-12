@@ -411,7 +411,7 @@
       "idf": "solid models/backplane.emn",
       "netlist": "",
       "specctra_dsn": "solid models/backplane.dsn",
-      "step": "solid models/backplane_t.step",
+      "step": "solid models/backplane.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
