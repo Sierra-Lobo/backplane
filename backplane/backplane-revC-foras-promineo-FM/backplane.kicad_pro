@@ -412,7 +412,7 @@
       "netlist": "",
       "specctra_dsn": "solid models/backplane.dsn",
       "step": "solid models/backplane.step",
-      "vrml": ""
+      "vrml": "backplane.wrl"
     },
     "page_layout_descr_file": ""
   },
