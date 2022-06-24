@@ -35,3 +35,4 @@ backups/
 *.zip
 *.kicad_prl
 
+*.db
