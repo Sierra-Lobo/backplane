@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "backplane-rbf-rescue")(type "Legacy")(uri "${KIPRJMOD}/backplane-rbf-rescue.lib")(options "")(descr ""))
+)
