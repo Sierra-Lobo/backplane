@@ -1,0 +1,8 @@
+ li# Auto detect text files and perform LF normalization
+* text=auto
+
+# Add lingust detect for KiCad files
+*.kicad_pcb linguist-detectable=true
+*.sch linguist-detectable=true
+
+* linguist-detectable=false
