@@ -1,4 +1,4 @@
- li# Auto detect text files and perform LF normalization
+# Auto detect text files and perform LF normalization
 * text=auto
 
 # Add lingust detect for KiCad files
