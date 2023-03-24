@@ -1004,7 +1004,7 @@
   (symbol (lib_id "backplane-rescue:Q_PNP_BEC-Device") (at 62.865 49.53 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27c5ab27-2c49-419b-ae16-584ac539aba3)
-    (property "Reference" "Q2" (at 70.485 50.165 90)
+    (property "Reference" "Q200" (at 70.485 50.165 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BC857AW,115" (at 72.39 52.705 90)
@@ -1022,7 +1022,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "Q2") (unit 1)
+          (reference "Q200") (unit 1)
         )
       )
     )
@@ -1082,7 +1082,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 181.61 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e94c575-74cc-4624-8c47-033464b06d6b)
-    (property "Reference" "R8" (at 177.8 62.23 90)
+    (property "Reference" "R208" (at 177.8 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 185.42 62.23 90)
@@ -1099,7 +1099,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R8") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -1214,7 +1214,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 213.36 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 616f7d3b-9aef-448a-aa00-606083cb5e38)
-    (property "Reference" "R9" (at 209.55 62.23 90)
+    (property "Reference" "R207" (at 209.55 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.17 62.23 90)
@@ -1231,7 +1231,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R9") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -1294,7 +1294,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 181.61 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 685a9b74-3224-4beb-a020-61f2f75cac3f)
-    (property "Reference" "R12" (at 177.8 100.33 90)
+    (property "Reference" "R204" (at 177.8 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 185.42 100.33 90)
@@ -1311,7 +1311,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R12") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -1320,7 +1320,7 @@
   (symbol (lib_id "backplane-rescue:R_US-Device") (at 55.88 74.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 721459fd-aa46-49be-884f-1764a7755e51)
-    (property "Reference" "R14" (at 55.88 69.723 90)
+    (property "Reference" "R201" (at 55.88 69.723 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 55.88 72.0344 90)
@@ -1337,7 +1337,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R14") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -1372,7 +1372,7 @@
   (symbol (lib_id "backplane-rescue:R_US-Device") (at 47.625 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77d17fa4-66ca-4a1d-b04a-d02ceddd818b)
-    (property "Reference" "R4" (at 45.085 60.96 90)
+    (property "Reference" "R200" (at 45.085 60.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 54.61 60.96 90)
@@ -1389,7 +1389,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R4") (unit 1)
+          (reference "R200") (unit 1)
         )
       )
     )
@@ -1398,7 +1398,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 149.86 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 883fe2dd-9a55-469b-aa9c-417592ffab3b)
-    (property "Reference" "R7" (at 146.05 62.23 90)
+    (property "Reference" "R209" (at 146.05 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 153.67 62.23 90)
@@ -1415,7 +1415,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R7") (unit 1)
+          (reference "R209") (unit 1)
         )
       )
     )
@@ -1476,7 +1476,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 149.86 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9193e09c-bd16-45e4-87da-8ca124274509)
-    (property "Reference" "R11" (at 146.05 100.33 90)
+    (property "Reference" "R205" (at 146.05 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 153.67 100.33 90)
@@ -1493,7 +1493,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R11") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -1634,7 +1634,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 113.03 63.5 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbdf4726-41a6-4f00-96e7-9804070112b9)
-    (property "Reference" "R6" (at 116.84 62.23 90)
+    (property "Reference" "R210" (at 116.84 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 109.22 62.23 90)
@@ -1651,7 +1651,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R6") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -1686,7 +1686,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 213.36 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e79cd19e-59d8-4aa5-979e-65eae74c5912)
-    (property "Reference" "R13" (at 209.55 100.33 90)
+    (property "Reference" "R203" (at 209.55 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.17 100.33 90)
@@ -1703,7 +1703,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R13") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -1712,7 +1712,7 @@
   (symbol (lib_name "R_US-Device_1") (lib_id "backplane-rescue:R_US-Device") (at 119.38 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9eb0b05-798c-40af-b774-fb7eae3f0a20)
-    (property "Reference" "R10" (at 115.57 100.33 90)
+    (property "Reference" "R206" (at 115.57 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 123.19 100.33 90)
@@ -1729,7 +1729,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R10") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -1763,7 +1763,7 @@
   (symbol (lib_id "backplane-rescue:R_US-Device") (at 55.88 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee276752-132c-4740-9de6-5af10262c9c8)
-    (property "Reference" "R15" (at 55.88 78.613 90)
+    (property "Reference" "R202" (at 55.88 78.613 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 55.88 80.9244 90)
@@ -1780,7 +1780,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "R15") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -1817,10 +1817,10 @@
   (symbol (lib_id "Device:Fuse_Small") (at 48.26 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f85573e6-1291-47e2-9450-181c3fd2fbf9)
-    (property "Reference" "F1" (at 49.53 49.53 90)
+    (property "Reference" "F200" (at 46.99 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "500mA" (at 49.53 40.005 90)
+    (property "Value" "500mA" (at 48.26 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 48.26 46.99 0)
@@ -1834,7 +1834,7 @@
     (instances
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "F1") (unit 1)
+          (reference "F200") (unit 1)
         )
       )
     )
