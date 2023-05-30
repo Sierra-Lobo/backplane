@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -44,7 +45,6 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -57,32 +57,43 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -91,28 +102,70 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rule_severitieslegacy_courtyards_overlap": true,
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.09999999999999999,
         "min_microvia_drill": 0.09999999999999999,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
+        "min_text_height": 0.7999999999999999,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.09999999999999999,
         "min_track_width": 0.09999999999999999,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.09999999999999999,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [
         0.0,
         0.2,
@@ -155,7 +208,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -339,18 +393,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -360,6 +419,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -377,7 +437,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -391,13 +451,672 @@
         "track_width": 0.3,
         "via_diameter": 0.5,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/+X_SOLAR_PWR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/+X_SOLAR_RTN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/+X_SOLAR_TLE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/+Y_SOLAR_PWR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/+Y_SOLAR_RTN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/+Y_SOLAR_TLE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-X_SOLAR_PWR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-X_SOLAR_RTN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-X_SOLAR_TLE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-Z_SOLAR_PWR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-Z_SOLAR_RTN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-Z_SOLAR_TLE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/5V_USB"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/AGND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/BUS_RESET"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-16"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-17"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-18"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-19"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-20"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-21"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-22"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-23"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-24"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-25"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-26"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-27"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-28"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-30"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-31"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-33"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-34"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-35"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-36"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-37"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-38"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-39"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-40"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-41"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-42"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-43"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-44"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-45"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-46"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-51"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-52"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H1-9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-16"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-17"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-18"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-19"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-20"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-21"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-22"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-23"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-24"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-25"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-26"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-27"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-28"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-33"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-34"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-35"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-36"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-37"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-38"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-39"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-40"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-41"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-42"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-43"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-44"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-45"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-46"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-49"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-50"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-51"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-52"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/H2-9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/B8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/G8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/LATCH_LED"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/R8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/SCLK_LED"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/SIN_LED"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/SOUT_LED_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LED Driver/~{enable}"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RBF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SELF_TEST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SEP1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SEP2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SEP3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SEP4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USER_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USER_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USER_3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q600-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q600-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q601-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q601-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q602-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q602-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q603-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R600-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R601-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad10)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad11)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad12)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad13)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad14)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad15)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad16)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad17)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U601-Pad19)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -413,6 +1132,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 100.0,
       "field_names": [],
@@ -444,7 +1165,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "pdf/",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
