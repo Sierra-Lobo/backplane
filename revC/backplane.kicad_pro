@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 4.199999,
-          "width": 4.199999
+          "drill": 2.159,
+          "height": 3.556,
+          "width": 3.556
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -140,10 +140,10 @@
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_on_pad_in_zone": false,
-          "td_onpadsmd": true,
+          "td_onpadsmd": false,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onviapad": false
         }
       ],
       "teardrop_parameters": [
@@ -476,7 +476,7 @@
       "idf": "solid models/backplane.emn",
       "netlist": "",
       "specctra_dsn": "solid models/backplane.dsn",
-      "step": "solid models/backplane.step",
+      "step": "doc/backplane.step",
       "vrml": "backplane.wrl"
     },
     "page_layout_descr_file": ""
@@ -518,7 +518,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "pdf/",
+    "plot_directory": "doc/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
