@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.1"
+      "Version": "(6.0.5)"
     },
-    "CreationDate": "2023-06-01T09:09:47-04:00"
+    "CreationDate": "2022-05-19T10:27:32-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.193,
-      "PadToTrack": 0.193,
+      "PadToPad": 0.2032,
+      "PadToTrack": 0.2032,
       "TrackToTrack": 0.2032,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.2032,
@@ -33,8 +33,8 @@
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.193,
-      "PadToTrack": 0.193,
+      "PadToPad": 0.2032,
+      "PadToTrack": 0.2032,
       "TrackToTrack": 0.2032,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.2032,
@@ -106,89 +106,89 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
-      "Color": "White",
+      "Color": "Black",
       "Name": "Top Silk Screen"
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "White",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.07,
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.274,
       "Material": "Polyimide",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.052,
+      "Thickness": 0.035,
       "Name": "In1.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.466,
+      "Thickness": 0.274,
       "Material": "Polyimide",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.052,
+      "Thickness": 0.035,
       "Name": "In2.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.274,
       "Material": "Polyimide",
       "Name": "In2.Cu/In3.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.052,
+      "Thickness": 0.035,
       "Name": "In3.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.466,
+      "Thickness": 0.274,
       "Material": "Polyimide",
       "Name": "In3.Cu/In4.Cu",
       "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.052,
+      "Thickness": 0.035,
       "Name": "In4.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.274,
       "Material": "Polyimide",
       "Name": "In4.Cu/B.Cu",
       "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.07,
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "White",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
       "Type": "Legend",
-      "Color": "White",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]

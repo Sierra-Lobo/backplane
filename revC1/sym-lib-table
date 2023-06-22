@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "CubeSat_Backplane")(type "KiCad")(uri "${KIPRJMOD}/lib-symbols/CubeSat_Backplane.kicad_sym")(options "")(descr ""))
+  (lib (name "backplane-rescue")(type "Legacy")(uri "${KIPRJMOD}/backplane-rescue.lib")(options "")(descr ""))
+)
